@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInViewController" customModule="MyGames" customModuleProvider="target">
+            <connections>
+                <outlet property="container" destination="9EM-A1-1th" id="eSp-ju-0F3"/>
+                <outlet property="view" destination="zzd-ZG-cyb" id="Si0-cQ-9Ll"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zzd-ZG-cyb">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EM-A1-1th">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qQP-x3-Yog">
+                            <rect key="frame" x="16" y="48" width="382" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qQP-x3-Yog" secondAttribute="trailing" constant="16" id="2td-Wo-EcU"/>
+                        <constraint firstItem="qQP-x3-Yog" firstAttribute="leading" secondItem="9EM-A1-1th" secondAttribute="leading" constant="16" id="a7e-j2-V2R"/>
+                        <constraint firstItem="qQP-x3-Yog" firstAttribute="top" secondItem="9EM-A1-1th" secondAttribute="top" constant="48" id="pOh-SC-QvZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" name="defaultBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="EQT-hd-lVA" firstAttribute="bottom" secondItem="9EM-A1-1th" secondAttribute="bottom" id="0av-LP-m6C"/>
+                <constraint firstItem="9EM-A1-1th" firstAttribute="leading" secondItem="EQT-hd-lVA" secondAttribute="leading" id="68S-hI-OgI"/>
+                <constraint firstItem="EQT-hd-lVA" firstAttribute="trailing" secondItem="9EM-A1-1th" secondAttribute="trailing" id="9VT-yL-xKk"/>
+                <constraint firstItem="9EM-A1-1th" firstAttribute="top" secondItem="EQT-hd-lVA" secondAttribute="top" id="tL9-2q-Ypb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="EQT-hd-lVA"/>
+            <point key="canvasLocation" x="-74" y="800"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="defaultBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
